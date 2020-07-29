@@ -73,7 +73,7 @@
   service:
      name: tomcat
      state: started
-     enabled: yes
+#     enabled: yes
 
 - name: wait for tomcat to start
   wait_for: port={{http_port}}
